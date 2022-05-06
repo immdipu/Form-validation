@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Fredoka+One&family=Jua&family=Kumbh+Sans:wght@300&family=Overpass&family=Poppins:wght@500&family=Righteous&family=Roboto:wght@700&display=swap"
+    rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+
+
+  <main class="container">
+    <div class="text">
+      <div class="textchild">
+        <h1> Learn to code by <br> watching others</h1>
+        <p class="descrp"> See how experienced developers solve problems in real-time. Watching scripted tutorials is
+          great,
+          but understanding how developers think is invaluable.</p>
+      </div>
+    </div>
+    <div class="form">
+      <div class="trialnotification">
+        Try it free 7 days then $20/mo. thereafter
+      </div>
+      <form class="signupform" id="signupform">
+        <div class="formholder">
+          <input id="firstname" type="text" placeholder="First Name">
+          <img class="error" id="firstnameerror" src="./images/icon-error.svg" alt="">
+          <p class="warningtext" id="firstNamewarningtext"></p>
+        </div>
+
+        <div class="formholder">
+          <input id="lastname" type="text" placeholder="Last Name">
+          <img class="error" id="lastnameerror" src="./images/icon-error.svg" alt="">
+          <p class="warningtext" id="lastNamewarningtext"></p>
+        </div>
+
+        <div class="formholder">
+          <input id="email" type="email" placeholder="Email Address">
+          <img class="error" id="emailerror" src="./images/icon-error.svg" alt="">
+          <p class="warningtext" id="emailwarningtext"></p>
+        </div>
+        <div class="formholder">
+          <input id="password" type="password" placeholder="Password">
+          <img class="error" id="passsworderror" src="./images/icon-error.svg" alt="">
+          <p class="warningtext" id="passwordwarningtext"></p>
+        </div>
+        <button id="submit" type="submit">CLAIM YOUR FREE TRIAL</button>
+        <p> By clicking the button, you are agreeing to our <span>Terms and Services</span> </p>
+      </form>
+    </div>
+
+  </main>
+
+
+
+  <script src="./script.js"></script>
+
+</body>
+
+
+</html>
